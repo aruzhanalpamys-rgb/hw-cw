@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container flex w-full">
+      <div
+        class="left bg-[#201f24] w-[380px] pt-[20px] h-[1098px] rounded-r-lg pr-10"
+      >
+        <img src="logo.png" class="w-[150px] pl-[20px]" />
+        <div class="menu mt-[30px]">
+          <div
+            class="row flex p-4 bg-[#f8f5f0] border-l-4 border-[#277b79] w-[290px] rounded-r-lg"
+          >
+            <img src="over.png " class="size-8" />
+            <p class="mt-[3px] ml-2">Overview</p>
+          </div>
+          <div class="row flex p-4">
+            <img src="up-down.png" class="size-8" />
+            <p class="text-[#b2b1b6] mt-[3px] ml-2">Transactions</p>
+          </div>
+          <div class="row flex p-4">
+            <img src="budgets.png" class="size-8" />
+            <p class="text-[#b2b1b6] mt-[3px] ml-2">Budgets</p>
+          </div>
+          <div class="row flex p-4">
+            <img src="pots.png" class="size-8" />
+            <p class="text-[#b2b1b6] mt-[3px] ml-2">Pots</p>
+          </div>
+          <div class="row flex p-4">
+            <img src="bills.png" class="size-8" />
+            <p class="text-[#b2b1b6] mt-[3px] ml-2">Recurring Bills</p>
+          </div>
+        </div>
+        <div class="prev">
+          <div class="minni flex p-4">
+            <img src="menu.png" class="size-8" />
+            <p class="text-[#b2b1b6] mt-[3px] ml-2">Minimize Menu</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="right px-10 py-8 bg-[#f8f5f0] w-full">
+        <h1 class="font-bold text-[30px] mb-7">Overview</h1>
+        <div class="money flex gap-5">
+          <div class="card bg-[#201f24] p-6 rounded-[10px] w-[340px]">
+            <p class="text-white">Current Balance</p>
+            <p class="text-white font-bold text-[30px]">$4,836.00</p>
+          </div>
+          <div class="card p-6 rounded-[10px] w-[340px] bg-white">
+            <p>Income</p>
+            <p class="font-bold text-[30px]">$3,814.25</p>
+          </div>
+          <div class="card bg-white p-6 rounded-[10px] w-[340px]">
+            <p>Expenses</p>
+            <p class="font-bold text-[30px]">$1,700.50</p>
+          </div>
+        </div>
+        <div class="row flex">
+          <div class="row">
+            <div class="left w-[600px] bg-white mt-10 p-7 rounded-[10px]">
+              <div class="top">
+                <div class="head flex justify-between">
+                  <p class="font-bold text-[23px]">Pots</p>
+                  <p>See Details</p>
+                </div>
+              </div>
+              <div class="row flex">
+                <div
+                  class="total flex bg-[#f8f5f0] w-[250px] p-6 rounded-[10px] mt-4"
+                >
+                  <img src="total.png" />
+                  <div class="col flex flex-col mt-4 ml-2">
+                    <p>Total Saved</p>
+                    <p class="font-bold text-[30px]">$850</p>
+                  </div>
+                </div>
+                <div class="one flex flex-col mt-6 ml-4">
+                  <div class="card border-l-4 border-[#347c79] mb-4">
+                    <p class="ml-3">Savings</p>
+                    <p class="ml-3 font-bold text-[20px]">$159</p>
+                  </div>
+                  <div class="card border-l-4 border-[#347c79]">
+                    <p class="ml-3">Correct Ticket</p>
+                    <p class="ml-3 font-bold text-[20px]">$110</p>
+                  </div>
+                </div>
+                <div class="second flex flex-col mt-6 ml-4">
+                  <div class="card border-l-4 border-[#347c79] mb-4">
+                    <p class="ml-3">Gift</p>
+                    <p class="ml-3 font-bold text-[20px]">$49</p>
+                  </div>
+                  <div class="card border-l-4 border-[#347c79]">
+                    <p class="ml-3">New Laptop</p>
+                    <p class="ml-3 font-bold text-[20px]">$10</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="transactions bg-white p-5 w-[600px] mt-6 rounded-[10px]"
+            >
+              <div class="head flex justify-between mb-5">
+                <h1 class="font-bold text-[22px]">Transactions</h1>
+                <p>View All</p>
+              </div>
+              <div class="row flex border-b-2 border-[#fbfbfb] pb-2 mb-3">
+                <img src="first.png" class="w-[57px]" />
+                <h1 class="font-bold mt-3 ml-2">Emma Richerdson</h1>
+              </div>
+              <div class="row flex border-b-2 border-[#fbfbfb] pb-2 mb-3">
+                <img src="second.png" class="w-[57px]" />
+                <h1 class="font-bold mt-3 ml-2">Emma Richerdson</h1>
+              </div>
+              <div class="row flex border-b-2 border-[#fbfbfb] pb-2 mb-3">
+                <img src="third.png" class="w-[57px]" />
+                <h1 class="font-bold mt-3 ml-2">Emma Richerdson</h1>
+              </div>
+              <div class="row flex border-b-2 border-[#fbfbfb] pb-2 mb-3">
+                <img src="fourth.png" class="w-[57px]" />
+                <h1 class="font-bold mt-3 ml-2">Emma Richerdson</h1>
+              </div>
+              <div class="row flex">
+                <img src="fifth.png" class="w-[57px]" />
+                <h1 class="font-bold mt-5 ml-2">Eicherdson</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col ml-10 mt-10">
+            <div class="budgets bg-white w-[420px] p-8 rounded-[10px]">
+              <div class="row flex justify-between">
+                <h1 class="font-bold text-[22px]">Budgets</h1>
+                <p>See Details</p>
+              </div>
+              <div class="circle flex">
+                <img src="circle.png " class="w-[240px]" />
+                <div class="list ml-4 mt-6">
+                  <div class="card border-l-4 border-[#347c79] mb-4 w-[100px]">
+                    <p class="ml-3">Savings</p>
+                    <p class="ml-3 font-bold text-[16px]">$159</p>
+                  </div>
+                  <div class="card border-l-4 border-[#347c79] mb-4">
+                    <p class="ml-3">Savings</p>
+                    <p class="ml-3 font-bold text-[16px]">$159</p>
+                  </div>
+                  <div class="card border-l-4 border-[#347c79] mb-4">
+                    <p class="ml-3">Savings</p>
+                    <p class="ml-3 font-bold text-[16px]">$159</p>
+                  </div>
+                  <div class="card border-l-4 border-[#347c79] mb-4">
+                    <p class="ml-3">Savings</p>
+                    <p class="ml-3 font-bold text-[16px]">$159</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bills bg-white w-[420px] p-8 rounded-[10px] mt-6">
+              <div class="head flex justify-between">
+                <h1 class="font-bold text-[22px]">Recurring Bills</h1>
+                <p>See Details</p>
+              </div>
+              <div
+                class="row flex justify-between bg-[#f8f5f0] mb-5 p-4 mt-4 rounded-[10px] border-l-4 border-[#2f7775]"
+              >
+                <p>Paid Bills</p>
+                <p class="font-bold">$190.00</p>
+              </div>
+              <div
+                class="row flex justify-between bg-[#f8f5f0] mb-5 p-4 rounded-[10px] border-l-4 border-[#edceaf]"
+              >
+                <p>Total Upcoming</p>
+                <p class="font-bold">$193.57</p>
+              </div>
+              <div
+                class="row flex justify-between bg-[#f8f5f0] mb-3 p-4 rounded-[10px] border-l-4 border-[#87c7d1]"
+              >
+                <p>Due Soon</p>
+                <p class="font-bold">$59.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
